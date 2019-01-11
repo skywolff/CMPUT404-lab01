@@ -2,8 +2,8 @@
 
 import requests
 
-print(requests.__version__)
-
-response = requests.get("http://www.google.com/")
+print("requests version: " + requests.__version__)
+response = requests.get("https://raw.githubusercontent.com/skywolff/CMPUT404-lab01/master/main.py")
+with open("downloadededScript.py", "w") as f:
+    f.write(response.text)
 print(response.text)
-print(response.status_code)
