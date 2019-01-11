@@ -1,0 +1,26 @@
+Question 1:
+https://github.com/skywolff
+
+Question 2:
+2.20.1
+
+Question 3:
+2.20.1
+
+Question 4:
+no difference
+
+Question 5:
+got 301, it's moved to http://www.google.com/
+
+Question 6:
+got 301, it's the one returned by curl -i. Got code 418 'I'm a Teapot'.
+
+
+Question 7:
+Using POST, there's form contents, and content length and content types under
+shell environment.
+
+
+Question 8:
+https://raw.githubusercontent.com/skywolff/CMPUT404-lab01/master/script.py
